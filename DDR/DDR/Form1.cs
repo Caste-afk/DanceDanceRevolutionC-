@@ -23,7 +23,7 @@ namespace DDR
         }
 
         private void btn_up_Click(object sender, EventArgs e)
-        {
+        {   
 
         }
 
@@ -40,6 +40,27 @@ namespace DDR
         private void btn_right_Click(object sender, EventArgs e)
         {
 
+        }
+        private void accrnd()
+        {
+            Random rnd = new Random(Environment.TickCount);
+
+            int n = rnd.Next(1, 5);
+            switch (n)
+            {
+                case 1:
+                    btn_up.Image = global::DDR.Properties.Resources.UpOn;
+                    break;
+                case 2:
+                    btn_up.Image = global::DDR.Properties.Resources.RightOn;
+                    break;
+                case 3:
+                    btn_up.Image = global::DDR.Properties.Resources.DownOn;
+                    break;
+                case 4:
+                    btn_up.Image = global::DDR.Properties.Resources.LeftOn;
+                    break;
+            }
         }
     }
 }

@@ -46,7 +46,7 @@
             this.tableLayoutPanel1.Controls.Add(this.btn_right, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.btn_down, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.btn_left, 0, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(200, 350);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(200, 250);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
@@ -57,41 +57,41 @@
             // 
             // btn_up
             // 
+            this.btn_up.Image = global::DDR.Properties.Resources.UpOff;
             this.btn_up.Location = new System.Drawing.Point(136, 3);
             this.btn_up.Name = "btn_up";
             this.btn_up.Size = new System.Drawing.Size(127, 127);
             this.btn_up.TabIndex = 0;
-            this.btn_up.Text = "button1";
             this.btn_up.UseVisualStyleBackColor = true;
             this.btn_up.Click += new System.EventHandler(this.btn_up_Click);
             // 
             // btn_right
             // 
+            this.btn_right.Image = global::DDR.Properties.Resources.RightOff;
             this.btn_right.Location = new System.Drawing.Point(269, 136);
             this.btn_right.Name = "btn_right";
             this.btn_right.Size = new System.Drawing.Size(128, 127);
             this.btn_right.TabIndex = 1;
-            this.btn_right.Text = "button1";
             this.btn_right.UseVisualStyleBackColor = true;
             this.btn_right.Click += new System.EventHandler(this.btn_right_Click);
             // 
             // btn_down
             // 
+            this.btn_down.Image = global::DDR.Properties.Resources.DownOff;
             this.btn_down.Location = new System.Drawing.Point(136, 269);
             this.btn_down.Name = "btn_down";
             this.btn_down.Size = new System.Drawing.Size(127, 128);
             this.btn_down.TabIndex = 2;
-            this.btn_down.Text = "button1";
             this.btn_down.UseVisualStyleBackColor = true;
             this.btn_down.Click += new System.EventHandler(this.btn_down_Click);
             // 
             // btn_left
             // 
+            this.btn_left.Image = global::DDR.Properties.Resources.LeftOff;
             this.btn_left.Location = new System.Drawing.Point(3, 136);
             this.btn_left.Name = "btn_left";
             this.btn_left.Size = new System.Drawing.Size(127, 127);
             this.btn_left.TabIndex = 3;
-            this.btn_left.Text = "button1";
             this.btn_left.UseVisualStyleBackColor = true;
             this.btn_left.Click += new System.EventHandler(this.btn_left_Click);
             // 
@@ -99,7 +99,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 761);
+            this.ClientSize = new System.Drawing.Size(784, 655);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form1";
             this.Text = "Form1";

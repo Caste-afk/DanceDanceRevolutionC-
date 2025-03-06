@@ -1,0 +1,10 @@
+C:\Users\erosc\Desktop\scuola\informatica\C#\DanceDanceRevolutionC-\DDR\DDR\bin\Debug\DDR.exe.config
+C:\Users\erosc\Desktop\scuola\informatica\C#\DanceDanceRevolutionC-\DDR\DDR\bin\Debug\DDR.exe
+C:\Users\erosc\Desktop\scuola\informatica\C#\DanceDanceRevolutionC-\DDR\DDR\bin\Debug\DDR.pdb
+C:\Users\erosc\Desktop\scuola\informatica\C#\DanceDanceRevolutionC-\DDR\DDR\obj\Debug\DDR.csproj.AssemblyReference.cache
+C:\Users\erosc\Desktop\scuola\informatica\C#\DanceDanceRevolutionC-\DDR\DDR\obj\Debug\DDR.Form1.resources
+C:\Users\erosc\Desktop\scuola\informatica\C#\DanceDanceRevolutionC-\DDR\DDR\obj\Debug\DDR.Properties.Resources.resources
+C:\Users\erosc\Desktop\scuola\informatica\C#\DanceDanceRevolutionC-\DDR\DDR\obj\Debug\DDR.csproj.GenerateResource.cache
+C:\Users\erosc\Desktop\scuola\informatica\C#\DanceDanceRevolutionC-\DDR\DDR\obj\Debug\DDR.csproj.CoreCompileInputs.cache
+C:\Users\erosc\Desktop\scuola\informatica\C#\DanceDanceRevolutionC-\DDR\DDR\obj\Debug\DDR.exe
+C:\Users\erosc\Desktop\scuola\informatica\C#\DanceDanceRevolutionC-\DDR\DDR\obj\Debug\DDR.pdb
