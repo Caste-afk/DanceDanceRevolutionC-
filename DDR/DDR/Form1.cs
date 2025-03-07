@@ -65,26 +65,19 @@ namespace DDR
 
             lbl_punteggio.Text = "Punteggio: " + punteggio.ToString();
 
-            switch (punteggio)
+            if (punteggio > 150)
             {
-                case 150:
-                    timer.Interval = 600;
-                    break;
-                case 300:
-                    timer.Interval = 400;
-                    break;
-                case 450:
-                    timer.Interval = 200;
-                    break;
-                default:
-                    if (punteggio < 0)
-                    {
-                        timer.Stop();
-                        punteggio = 0;
-                        lbl_punteggio.Text = "Punteggio: " + punteggio.ToString();
-                        btn_Start.Text = "Start";
-                    }
-                    break;
+                timer.Interval = 600;
+            }else if (punteggio > 400)
+            {
+                timer.Interval = 400;
+            }else if (punteggio > 800)
+            {
+                timer.Interval = 250;
+            }
+            else
+            {
+
             }
             premuto = false;
         }
