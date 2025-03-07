@@ -118,11 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="DownOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DownOff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DownOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DownOn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RightOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RightOn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LeftOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LeftOff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,16 +127,22 @@
   <data name="LeftOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LeftOn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="DownOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DownOn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UpOn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="RightOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RightOff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RightOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RightOn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DownOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DownOff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="UpOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UpOff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="UpOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UpOn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="675486-cosi-ghiacciato-tony_1537" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\675486-cosi-ghiacciato-tony_1537.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

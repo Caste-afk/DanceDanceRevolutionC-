@@ -63,6 +63,16 @@ namespace DDR.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _675486_cosi_ghiacciato_tony_1537 {
+            get {
+                object obj = ResourceManager.GetObject("675486-cosi-ghiacciato-tony_1537", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DownOff {
             get {
                 object obj = ResourceManager.GetObject("DownOff", resourceCulture);

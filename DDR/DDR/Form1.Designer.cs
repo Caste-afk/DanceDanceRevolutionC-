@@ -1,4 +1,6 @@
-﻿namespace DDR
+﻿using System.Windows.Forms;
+
+namespace DDR
 {
     partial class Form1
     {
@@ -40,6 +42,7 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
@@ -100,10 +103,10 @@
             // 
             // btn_Start
             // 
+            this.btn_Start.Font = new System.Drawing.Font("Comic Sans MS", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Start.Location = new System.Drawing.Point(136, 136);
             this.btn_Start.Name = "btn_Start";
             this.btn_Start.Size = new System.Drawing.Size(127, 127);
-            this.btn_Start.Font = new System.Drawing.Font("Comic Sans MS", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Start.TabIndex = 2;
             this.btn_Start.Text = "Start";
             this.btn_Start.UseVisualStyleBackColor = true;
@@ -111,10 +114,11 @@
             // 
             // lbl_punteggio
             // 
-            this.lbl_punteggio.Location = new System.Drawing.Point(564, 9);
-            this.lbl_punteggio.Name = "lbl_punteggio";
-            this.lbl_punteggio.Size = new System.Drawing.Size(208, 102);
+            this.lbl_punteggio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl_punteggio.Font = new System.Drawing.Font("Comic Sans MS", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_punteggio.Location = new System.Drawing.Point(21, 9);
+            this.lbl_punteggio.Name = "lbl_punteggio";
+            this.lbl_punteggio.Size = new System.Drawing.Size(143, 170);
             this.lbl_punteggio.TabIndex = 1;
             this.lbl_punteggio.Text = "Putneggio";
             // 
@@ -122,11 +126,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::DDR.Properties.Resources._675486_cosi_ghiacciato_tony_1537;
             this.ClientSize = new System.Drawing.Size(784, 655);
             this.Controls.Add(this.lbl_punteggio);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Dance Dance Revolution!";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
