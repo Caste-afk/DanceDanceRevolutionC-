@@ -103,6 +103,7 @@
             this.btn_Start.Location = new System.Drawing.Point(136, 136);
             this.btn_Start.Name = "btn_Start";
             this.btn_Start.Size = new System.Drawing.Size(127, 127);
+            this.btn_Start.Font = new System.Drawing.Font("Comic Sans MS", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Start.TabIndex = 2;
             this.btn_Start.Text = "Start";
             this.btn_Start.UseVisualStyleBackColor = true;
@@ -110,10 +111,10 @@
             // 
             // lbl_punteggio
             // 
-            this.lbl_punteggio.AutoSize = true;
-            this.lbl_punteggio.Location = new System.Drawing.Point(200, 105);
+            this.lbl_punteggio.Location = new System.Drawing.Point(564, 9);
             this.lbl_punteggio.Name = "lbl_punteggio";
-            this.lbl_punteggio.Size = new System.Drawing.Size(55, 13);
+            this.lbl_punteggio.Size = new System.Drawing.Size(208, 102);
+            this.lbl_punteggio.Font = new System.Drawing.Font("Comic Sans MS", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_punteggio.TabIndex = 1;
             this.lbl_punteggio.Text = "Putneggio";
             // 
@@ -129,7 +130,6 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

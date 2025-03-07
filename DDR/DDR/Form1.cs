@@ -16,7 +16,8 @@ namespace DDR
         private System.Windows.Forms.Timer timer;
 
         bool premuto = true;
-        int punteggio = 0;
+        int punteggio = 100;
+        int s;
 
         public Form1()
         {
@@ -29,30 +30,52 @@ namespace DDR
 
         private void btn_up_Click(object sender, EventArgs e)
         {
-            premuto = true;
-            btn_up.Image = global::DDR.Properties.Resources.UpOn;
+            if (s == 1)
+            {
+                btn_up.Image = global::DDR.Properties.Resources.UpOn;
+                premuto = true;
+            }
+            else
+            {
+                premuto = false;
+                btn_up.BackColor = Color.Red;//segnare errore
+            }
         }
 
         private void btn_left_Click(object sender, EventArgs e)
         {
-            premuto = true;
-            btn_left.Image = global::DDR.Properties.Resources.LeftOn;
+            if (s == 4)
+            {
+                btn_left.Image = global::DDR.Properties.Resources.LeftOn;
+                premuto = true;
+            }
         }
 
         private void btn_down_Click(object sender, EventArgs e)
         {
-            premuto = true;
-            btn_down.Image = global::DDR.Properties.Resources.DownOn;
+            if (s == 3)
+            {
+                btn_down.Image = global::DDR.Properties.Resources.DownOn;
+                premuto = true;
+            }
         }
 
         private void btn_right_Click(object sender, EventArgs e)
         {
-            premuto = true;
-            btn_right.Image = global::DDR.Properties.Resources.RightOn;
+            if (s == 2)
+            {
+                btn_right.Image = global::DDR.Properties.Resources.RightOn;
+                premuto = true;
+            }
         }
 
         private void Timer_Tick(object sender, EventArgs e)//funzione che controlla ad ogni timer.Interval
         {
+            btn_left.BackColor = Color.Transparent;
+            btn_up.BackColor = Color.Transparent;
+            btn_right.BackColor = Color.Transparent;
+            btn_down.BackColor = Color.Transparent;
+
             if (premuto && punteggio >= 0)
             {
                 accrnd(); // Accendi un pulsante random ogni secondo
@@ -75,8 +98,16 @@ namespace DDR
             {
                 timer.Interval = 250;
             }
-            else
+            else if(punteggio < 0)
             {
+                lbl_punteggio.Text = "Hai Perso!";
+                timer.Stop();
+                btn_Start.Text = "Start";
+                btn_up.Image = null;
+                btn_right.Image = null;
+                btn_down.Image = null;
+                btn_left.Image = null;
+                punteggio = 0;
 
             }
             premuto = false;
@@ -86,14 +117,14 @@ namespace DDR
         {
             Random rnd = new Random();
 
-            int n = rnd.Next(1, 5);
+            s = rnd.Next(1, 5);
             // Resetta tutte le immagini prima di impostarne una nuova
             btn_up.Image = null;
             btn_right.Image = null;
             btn_down.Image = null;
             btn_left.Image = null;
 
-            switch (n)
+            switch (s)
             {
                 case 1:
                     btn_up.Image = global::DDR.Properties.Resources.UpOff;
@@ -124,6 +155,7 @@ namespace DDR
             {
                 timer.Stop();
                 btn_Start.Text = "Start";
+                lbl_punteggio.Text = "Punteggio: " + punteggio.ToString();
                 btn_up.Image = null;
                 btn_right.Image = null;
                 btn_down.Image = null;
